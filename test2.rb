@@ -1,16 +1,28 @@
 
-a = 7
-answer = case a
+#x = gets.chomp.to_i
 
-when 5
- "a is 5"
-
-when 6
- "a is 6"
-
-else
-  "a is nothing"
+x = ["apple" , "banana"]
+for i in x do 
+	puts i
 end
 
 
-puts answer
+
+
+def fib(number)
+	if number<2
+		return number
+	else
+		return fib(number-1) + fib(number-2)
+	end
+end
+
+
+puts fib(6)
+
+
+
+		
+
+
+
