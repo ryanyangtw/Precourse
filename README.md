@@ -1,1 +1,1 @@
-This repository is built for precourse assignment!
+This repository is built for precourse exercise!
